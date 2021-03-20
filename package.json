@@ -1,9 +1,7 @@
 {
-  "name": "webrtc-example",
+  "name": "camera",
   "version": "1.0.0",
   "main": "server.js",
-  "repository": "git@github.com:jeffersonxavier/webrtc-example.git",
-  "author": "Jefferson Xavier <jeffersonx.xavier@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
@@ -11,6 +9,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "multer": "^1.4.2",
     "socket.io": "^3.0.1"
   },
   "devDependencies": {

@@ -1,0 +1,23 @@
+<html>
+ <head>
+	<title>Camera</title>
+	<link rel="stylesheet" href="./receiver.css">
+	<script src="//cdn.jsdelivr.net/npm/eruda"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/receiver.js" type="module"></script>
+	<meta name="viewport" content="width=device-width"/>
+ </head>
+ <body>
+	<div class='container'>
+	 <video id='video' plasinline autoplay></video>
+	 <div class='commands'>
+		<button id='start' disabled>Inciar Gravação</button>
+		<button id='stop' disabled>Parar Gravacão</button>
+		<button id='reload'>Recarregar</button>
+	 </div>
+	 <div class='alert'>
+		<h1>Tentando se conectar...</h1>
+	 </div>
+	</div>
+ </body>
+</html>
